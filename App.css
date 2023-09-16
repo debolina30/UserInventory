@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  text-align: center;
+}
+
+.age-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.user-info h3 {
+  margin: 0;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.user-actions button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.user-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.user-view-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+/* Style the edit and view buttons with a blue background color */
+.blue-button {
+  background-color: blue;
+  color: white;
+}
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  justify-content: space-between; /* Add space between the headline and button */
+  margin-bottom: 20px; /* Add spacing between the headline and user cards */
+}
+
+/* Align the User Dashboard headline to the left */
+h1 {
+  color: #333;
+  text-align: left; /* Set text alignment to left */
+}
+/* src/components/UserForm.scss */
+
+.user-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .radio-group {
+      label {
+        margin-right: 15px;
+
+        input[type="radio"] {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
